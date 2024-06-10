@@ -7,11 +7,32 @@
 </head>
 <body>
     <br>
-    <Link><a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="reservation.html">Reservation</a>
-        <a href="order out.html">Order Out</a>
-        <a href="about us.html">About Us</a></Link>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="order out.html">Order Out</a>
+    <a href="about us.html">About Us</a>
     <br>
+    <h2>Reserve Seating Below</h2>
+    <br>
+    <form action="/action_page.php">
+        <p>Who is booking a table?</p>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <p>How many people should we expect?</p>
+        <input type="radio" id="tableFor1" name="table1" value="tableFor1">
+        <label for="tableFor1">Table for 1</label><br>
+        <input type="radio" id="tableFor2" name="table2" value="tableFor2">
+        <label for="tableFor2">Table for 2</label><br>
+        <input type="radio" id="tableFor3" name="table3" value="tableFor3">
+        <label for="tableFor3">Table for 3</label><br>
+        <p>Is there a reason for your visit?</p>
+        <input type="text" id="visit" name="visit">
+        <label for="visit"></label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
 </body>
 </html>
