@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>About Us</title>
 </head>
 <body>
@@ -11,8 +12,8 @@
     <a href="index.html">Home</a>
     <a href="menu.html">Menu</a>
     <a href="reservation.html">Reservation</a>
-    <a href="order out.html">Order Out</a>
-    <a href="about us.html">About Us</a>
+    <a href="orderOut.html">Order Out</a>
+    <a href="aboutUs.html">About Us</a>
     <br>
     <h2>Allergy Information</h2>
     <br>
@@ -24,19 +25,28 @@
     <br>
     <h2>Feedback</h2>
     <br>
-    <form action="/action_page.php">
+<div class="Feedback">
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
         <p>Please enter your name</p>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <br>
         <label for="service">Was the service acceptable?</label>
-        <input type="text" id="service" name="service"><br>
+        <input type="text" id="service" name="service">
+        <br>
         <label for="food">Was the food good?</label>
-        <input type="text" id="food" name="food"><br>
+        <input type="text" id="food" name="food">
+        <br>
         <label for="other">Was there anything else that affected your experience?</label>
-        <input type="text"></label><br>
+        <input type="text"></label>
+        <br>
         <input type="submit" value="Submit">
     </form>
+</div>
 </body>
 </html>
